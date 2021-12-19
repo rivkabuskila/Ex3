@@ -15,7 +15,7 @@ return c-('A'-1);
 
 int sumchar(char* c){
     int sum=0;
-    for(int i=0; i<strlen(c); i++){
+    for(int i=0; i<strlen(c)-1; i++){
         int a= equal(c[i]);
           sum=sum+a; 
       }
