@@ -25,7 +25,7 @@ int sumchar(char* c){
 void GemString(char* str, char* word){
 char *p=str;
 char *p1=str;
-char arr[1024]="0";
+char arr[1024]={'0'};
 int pa =0;
 int sumW=sumchar(word);
 int  sum=0;
